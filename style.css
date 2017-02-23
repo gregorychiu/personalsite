@@ -1,0 +1,56 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+
+.navigation {
+  height: 45px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  position: fixed;
+  opacity: .8;
+
+}
+
+.navigation a {
+  text-decoration: none;
+}
+.navigation a:visited {
+  color: white;
+  opacity: .8;
+}
+
+.navigation li {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin: 0px 15px;
+  color: white;
+  opacity: .8;
+}
+
+.content-header {
+  height: 750px;
+  width: 100%;
+  background-image: url(img/Background.jpeg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+
+.content-header h1 {
+  font-family: 'Barrio', cursive;
+  color:white;
+  font-size: 100px;
+  letter-spacing: 5pt;
+  margin-left: 25px;
+  display: inline-block;
+  margin-top: 500px;
+  opacity: .7;
+
+
+}
