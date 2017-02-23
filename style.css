@@ -10,8 +10,7 @@ body{
   text-align: center;
   background-color: black;
   position: fixed;
-  opacity: .8;
-
+  opacity: .75;
 }
 
 .navigation a {
@@ -19,7 +18,7 @@ body{
 }
 .navigation a:visited {
   color: white;
-  opacity: .8;
+  opacity: .85;
 }
 
 .navigation li {
@@ -29,7 +28,7 @@ body{
   letter-spacing: 3px;
   margin: 0px 15px;
   color: white;
-  opacity: .8;
+  opacity: .85;
 }
 
 .content-header {
@@ -43,14 +42,12 @@ body{
 
 
 .content-header h1 {
-  font-family: 'Barrio', cursive;
+  font-family: 'Londrina Sketch', cursive;
   color:white;
-  font-size: 100px;
+  font-size: 105px;
   letter-spacing: 5pt;
-  margin-left: 25px;
+  margin-left: 30px;
   display: inline-block;
   margin-top: 500px;
   opacity: .7;
-
-
 }
