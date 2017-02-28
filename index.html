@@ -1,46 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
+  <head>
       <title>Gregory Chiu</title>
       <link href="https://fonts.googleapis.com/css?family=Londrina+Sketch" rel="stylesheet">
+      <link href="bootstrap.css" rel="stylesheet">
       <link rel="stylesheet" href="style.css" />
-    </head>
+  </head>
 
-    <body>
-      <div class="navigation">
-          <ul>
-            <li> <a href="xxx.html">BIO</a></li>
-            <li> <a href="xxx.html">PROJECTS</a></li>
-            <li> <a href="xxx.html">OTHERS</a></li>
-          </ul>
-      </div>
+  <body data-spy="scroll" data-target=".navbar-fixed-top">
+      <!-- NavBar -->
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="nav-container">
+                  <ul class="nav navbar-nav">
+                      <li>
+                          <a class="page-scroll" href="#1st">ABOUT</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#2nd">TRAVEL MAP</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#3rd">PHOTOGRAPHY</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#4th">MUSIC</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#5th">CONNECT</a>
+                      </li>
+                  </ul>
+          </div>
+      </nav>
 
-      <div class="content-header">
-          <h1>GREGORY <br>CHIU</h1>
-      </div>
 
-      <div class = "content">
-
-        <div>
-          <img src="img/photo1.jpg"/>
-          <img src="img/photo2.jpg"/>
-          <img src="img/photo3.jpg"/>
-          <img src="img/photo4.jpg"/>
-          <img src="img/photo5.jpg"/>
-        </div>
+      <!-- Homepage - Gregory Chiu -->
+      <section class="content-header">
+        <h1>GREGORY <br> CHIU</h1>
+      </section>
 
 
+      <!-- 1st Section -->
+      <section id="1st" class="sec1">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h1>ABOUT ME</h1>
+                      <img src="img/photo1.jpg"/>
+                  </div>
+              </div>
+          </div>
+      </section>
 
-        <iframe width="24%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228052681&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      <!-- 2nd Section -->
+      <section id="2nd" class="sec2">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h1>TRAVEL MAP</h1>
+                      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1uIMklOLoSAsCSZfc9g-r_MutzyE" width="100%" height="300vh"></iframe>
+                  </div>
+              </div>
+          </div>
+      </section>
 
-        <iframe width="24%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228052681&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      <!-- 3rd Section -->
+      <section id="3rd" class="sec3">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h1>MOBILE PHOTOGRAPHY</h1>
+                  </div>
+              </div>
+          </div>
+      </section>
 
-        <iframe width="24%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228052681&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      <!-- 4th Section -->
+      <section id="4th" class="sec4">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h1>MUSIC PRODUCTION</h1>
+                      <iframe width="24%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228052681&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-        <iframe width="24%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228052681&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                      <iframe width="24%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228052681&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                  </div>
+              </div>
+          </div>
+      </section>
 
-      </div>
+      <!-- 5th Section -->
+      <section id="5th" class="sec5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h1>Connect</h1>
+                  </div>
+              </div>
+          </div>
+      </section>
+
       <footer>2017 Gregory Chiu</footer>
-      <script src="js/main.js"></script>
-    </body>
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.easing.min.js"></script>
+      <script src="js/scrolling-nav.js"></script>
+  </body>
+
 </html>
