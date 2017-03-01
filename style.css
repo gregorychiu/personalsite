@@ -63,7 +63,11 @@ html {
 }
 
 
-/* body content*/
+/* body content - about*/
+.container {
+  margin: 0px 0px;
+  width:100%;
+}
 .sec1 {
     height: 200%;
     padding-top: 150px;
@@ -71,6 +75,7 @@ html {
     background: black;
 }
 
+/* travel map*/
 .sec2 {
     height: 100%;
     padding-top: 150px;
@@ -78,42 +83,61 @@ html {
     background: white;
 }
 
+/* photography*/
 .sec3 {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    padding-top: 70px;
     background: black;
 }
+.sec3 .col-lg-3 {
+  padding: 4px;
+}
+.sec3 img {
+  filter: grayscale(100%);
+  width: 100%;
+  height: 28vh;
+  margin: 0px 5px 15px 5px;
+  opacity: .6;
+}
+.sec3 img:hover {
+  filter: grayscale(0%);
+  width: 100%;
+  height: 28vh;
+  margin: 0px 5px 15px 5px;
+  opacity: 1;
+}
+#phototitle{
+  font-family: 'Londrina Sketch', cursive;
+  color:white;
+  font-size: 9vw;
+  letter-spacing: 4pt;
+  margin: 270px 20px 0px 30px;
+  opacity:.75;
+}
+
+/* music production*/
 .sec4 {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: white;
 }
+
+/* connect*/
 .sec5 {
-    height: 25%;
+    height: 100%;
     padding-top: 150px;
     text-align: center;
     background: black;
 }
 
 
-img {
-  filter: grayscale(100%);
-  width: 100%;
-  height: 650px;
-  margin-bottom: 10px;
-}
-img:hover {
-  filter: grayscale(0%);
-  width: 100%;
-  height: 650px;
-  margin-bottom: 10px;
-}
+
 
 /* soundcloud projects*/
 iframe {
   filter: grayscale(100%);
+  opacity: .7;
 }
 iframe:hover {
   filter: grayscale(40%);
