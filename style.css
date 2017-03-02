@@ -42,45 +42,73 @@ html {
   background-size: cover;
   margin-bottom: 10px;
 }
-.content-header:hover {
-  height: 900px;
-  width: 100%;
-  background-image: url(img/Background-color.jpg);
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size: cover;
-  margin-bottom: 10px;
-}
 .content-header h1 {
-  font-family: 'Londrina Sketch', cursive;
+  font-family: 'Bowlby One SC', cursive;
   color:white;
-  font-size: 120px;
-  letter-spacing: 4pt;
+  font-size: 100px;
+  letter-spacing: 2pt;
   margin-left: 80px;
   display: inline-block;
-  margin-top: 370px;
-  opacity: .75;
+  margin-top: 390px;
+  opacity: .8;
 }
 
-
-/* body content - about*/
 .container {
   margin: 0px 0px;
   width:100%;
 }
-.sec1 {
-    height: 200%;
-    padding-top: 150px;
-    text-align: center;
-    background: black;
-}
 
-/* travel map*/
-.sec2 {
+/* body content - bio*/
+.sec1 {
     height: 100%;
     padding-top: 150px;
+    background: white;
+    background-size: cover;
+    background-image: url(img/default.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-bottom: 10px;
+}
+.sec1 .container{
+  width:40%;
+}
+.texthover{
+  font-family: 'Bowlby One SC', cursive;
+  color:DimGrey;
+  font-size: 52px;
+  letter-spacing: 3pt;
+  margin-left: 80px;
+  display: block;
+  opacity: .25;
+}
+.texthover:hover{
+  color: white;
+  opacity: 1;
+}
+#title {
+  font-family: 'Bungee Inline', cursive;
+  color:white;
+  font-size: 110px;
+  opacity: .9;
+  letter-spacing: 4pt;
+  margin-left: 80px;
+}
+
+/* work*/
+.sec2 {
+    height: 100%;
     text-align: center;
     background: white;
+}
+.sec2 .container, #sec2left, #sec2right{
+  padding: 0px;
+  margin:0px;
+  height:100%;
+}
+.sec2 img {
+  width:100%;
+  height:100%;
+  filter: grayscale(100%);
 }
 
 /* photography*/
@@ -88,6 +116,7 @@ html {
     height: 100%;
     padding-top: 70px;
     background: black;
+    border-bottom: solid black 10px
 }
 .sec3 .col-lg-3 {
   padding: 4px;
@@ -97,7 +126,7 @@ html {
   width: 100%;
   height: 28vh;
   margin: 0px 5px 15px 5px;
-  opacity: .6;
+  opacity: .5;
 }
 .sec3 img:hover {
   filter: grayscale(0%);
@@ -106,39 +135,61 @@ html {
   margin: 0px 5px 15px 5px;
   opacity: 1;
 }
-#phototitle{
-  font-family: 'Londrina Sketch', cursive;
+.sec3 h1{
+  font-family: 'Bungee Inline', cursive;
   color:white;
-  font-size: 9vw;
+  font-size: 6vw;
   letter-spacing: 4pt;
-  margin: 270px 20px 0px 30px;
-  opacity:.75;
+  margin: 300px 20px 0px 50px;
+  opacity:.65;
+  line-height: 130%;
 }
 
 /* music production*/
 .sec4 {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: white;
-}
-
-/* connect*/
-.sec5 {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    width: 100%;
     background: black;
+    background-image: url(img/deck.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
 }
-
-
-
-
-/* soundcloud projects*/
-iframe {
+.sec4 .container {
+  background-color: white;
+}
+.sec4 iframe {
   filter: grayscale(100%);
-  opacity: .7;
+  opacity: .75;
+  margin-top:55px;
+  border: dotted 2px grey;
+  padding: 5px 5px 0px 5px;
 }
-iframe:hover {
+.sec4 iframe:hover {
   filter: grayscale(40%);
 }
+
+/* contact*/
+.sec5 {
+    height: 100%;
+    text-align: center;
+    background: white;
+    border-bottom: solid black 5px
+}
+.sec5 .container, #sec5left, #sec5right{
+  padding: 0px;
+  margin:0px;
+  height:100%;
+}
+.sec5 img {
+  width:100%;
+  height:100%;
+  filter: grayscale(100%);
+}
+
+/*
+INSPIRATION REF:
+https://www.squarespace.com/templates/?template=adversary
+https://www.squarespace.com/templates/?template=foster
+*/
