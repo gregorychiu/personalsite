@@ -105,10 +105,31 @@ html {
   margin:0px;
   height:100%;
 }
-.sec2 img {
+#sec2left img {
   width:100%;
   height:100%;
   filter: grayscale(100%);
+}
+#scl {
+  width:90%;
+  height:83vh;
+  filter: grayscale(100%);
+  margin-top:35px;
+  opacity:.75;
+}
+#scl:hover{
+  filter: grayscale(0%);
+  opacity:.9;
+}
+.sec2 h2{
+  font-family: 'Bungee Inline', cursive;
+  color:DimGrey;
+  font-size: 7vw;
+  letter-spacing: 3pt;
+  margin: 75px auto 5px 55px;
+  opacity:.85;
+  line-height: 130%;
+  text-align: left;
 }
 
 /* photography*/
@@ -191,5 +212,4 @@ html {
 /*
 INSPIRATION REF:
 https://www.squarespace.com/templates/?template=adversary
-https://www.squarespace.com/templates/?template=foster
 */
