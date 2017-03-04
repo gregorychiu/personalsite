@@ -34,22 +34,24 @@ html {
 
 /* homepage Gregory Chiu*/
 .content-header {
-  height: 900px;
+  height: 100%;
   width: 100%;
+  box-sizing: border-box;
   background-image: url(img/Background.jpeg);
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  margin-bottom: 10px;
+  background-attachment: fixed;
+  border-bottom: 5px solid black;
 }
-.content-header h1 {
+#name {
   font-family: 'Bowlby One SC', cursive;
   color:white;
-  font-size: 100px;
-  letter-spacing: 2pt;
-  margin-left: 80px;
+  font-size: 14.5vh;
+  letter-spacing: 3pt;
+  margin-left: 7vw;
   display: inline-block;
-  margin-top: 395px;
+  margin-top: 58vh;
   opacity: .8;
 }
 
@@ -68,7 +70,7 @@ html {
     background-image: url(img/default.png);
     background-position: center;
     background-repeat:no-repeat;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .sec1 .container{
   width:40%;
@@ -76,7 +78,7 @@ html {
 .texthover{
   font-family: 'Bowlby One SC', cursive;
   color:DimGrey;
-  font-size: 52px;
+  font-size: 7.5vh;
   letter-spacing: 3pt;
   margin-left: 80px;
   display: block;
@@ -89,10 +91,11 @@ html {
 #title {
   font-family: 'Bungee Inline', cursive;
   color:white;
-  font-size: 110px;
+  font-size: 12vw;
   opacity: .9;
   letter-spacing: 4pt;
   margin-left: 80px;
+  line-height: 1.2;
 }
 
 
@@ -179,7 +182,7 @@ html {
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     text-align: center;
 }
 .sec4 .container {
@@ -232,6 +235,13 @@ html {
   margin:0px;
   height:100%;
 }
+#gg2{
+  background-image: url(img/contactphoto.jpg);
+  background-position: left;
+  background-repeat:no-repeat;
+  background-size: 40% 100%;
+  background-attachment: fixed;
+}
 #sec5left img {
   width:100%;
   height:100%;
@@ -262,6 +272,11 @@ html {
   font-family: 'Bowlby One SC', cursive;
   color:grey;
   opacity: .8;
-  font-size: 1vw;
-  margin-top: 60px;
+  font-size: 2vh;
+  margin-top: 55px;
+  letter-spacing: 1pt;
+  line-height: 1.7
+}
+.em{
+  filter: grayscale(100%);
 }
