@@ -62,7 +62,7 @@ html {
 /* body content - bio*/
 .sec1 {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 130px;
     background: white;
     background-size: cover;
     background-image: url(img/default.png);
@@ -180,6 +180,7 @@ html {
     background-repeat:no-repeat;
     background-size: cover;
     margin-bottom: 10px;
+    text-align: center;
 }
 .sec4 .container {
   background-color: white;
@@ -209,6 +210,15 @@ html {
 .sec4 iframe:hover {
   filter: grayscale(40%);
 }
+#support{
+  font-family: 'Bungee Inline', cursive;
+  color:white;
+  opacity:.7;
+  font-size: 6vw;
+  letter-spacing: 3pt;
+  margin-top: 20px;
+}
+
 
 /* contact*/
 .sec5 {
