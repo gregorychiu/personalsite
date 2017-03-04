@@ -183,18 +183,32 @@ html {
 }
 .sec4 .container {
   background-color: white;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 100%;
+  padding:0px;
+}
+.sec4 li {
+  width: 24.7%;
+  margin-top:55px;
+  padding: 5px 10px 12px 0px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#firstplayer{
+  padding-left: 10px;
 }
 .sec4 iframe {
   filter: grayscale(100%);
   opacity: .8;
-  margin-top:55px;
   border: dotted 2px grey;
-  padding: 5px 5px 0px 5px;
+  padding:7px;
+  box-sizing: border-box;
 }
 .sec4 iframe:hover {
   filter: grayscale(40%);
 }
-
 
 /* contact*/
 .sec5 {
