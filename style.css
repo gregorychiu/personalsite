@@ -235,13 +235,6 @@ html {
   margin:0px;
   height:100%;
 }
-#gg2{
-  background-image: url(img/contactphoto.jpg);
-  background-position: left;
-  background-repeat:no-repeat;
-  background-size: 40% 100%;
-  background-attachment: fixed;
-}
 #sec5left img {
   width:100%;
   height:100%;
@@ -280,3 +273,161 @@ html {
 .em{
   filter: grayscale(100%);
 }
+
+
+
+/*
+------------------------------------------------------------
+MOBILE SITE CSS SETTINGS
+------------------------------------------------------------
+*/
+@media all and (max-width: 1200px) {
+
+  /* navbar*/
+  .nav-container {
+    height: 40px;
+    text-align: center;
+  }
+  .nav-container li {
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 0px 12px;
+  }
+
+  /* homepage Gregory Chiu*/
+  #name {
+    font-family: 'Bowlby One SC', cursive;
+    color:white;
+    font-size: 10vh;
+    letter-spacing: 2pt;
+    margin-top: 62vh;
+  }
+
+  /* body content - bio*/
+  .sec1 {
+      height: 100%;
+      padding-top: 20vh;
+  }
+  .sec1 .container{
+    width:40%;
+  }
+  .texthover{
+    font-family: 'Bowlby One SC', cursive;
+    color:DimGrey;
+    font-size: 6.5vh;
+    letter-spacing: 2pt;
+    margin-left: 10vh;
+  }
+  #title {
+    font-size: 8.5vw;
+    letter-spacing: 3pt;
+    margin-left: 10vh;
+    line-height: 1;
+  }
+
+  /* work*/
+  .sec2 {
+      background-image: url(img/workphoto1.png);
+      background-position: center;
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  #sec2left{
+    height:35%;
+  }
+  #sec2right{
+    height:65%;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+  }
+  #sec2left img {
+    visibility: hidden;
+  }
+  #scl {
+    width:68%;
+    height:50vh;
+  }
+  .sec2 h2{
+    text-align: center;
+    letter-spacing: 3pt;
+    margin: 0px;
+    padding-top: 6vh;
+  }
+
+  /* photography*/
+  .sec3 {
+      padding-top: 60px;
+      text-align: center;
+  }
+  .sec3 .col-lg-3 {
+    padding: 4px;
+    width:100%;
+  }
+  .sec3 img {
+    width: 22%;
+    height: 24vh;
+    margin: 0px 5px 15px 5px;
+  }
+  .sec3 img:hover {
+    width: 22%;
+    height: 24vh;
+    margin: 0px 5px 15px 5px;
+  }
+  .sec3 h1{
+    font-size: 6vw;
+    letter-spacing: 4pt;
+    margin: 0px auto 40px auto;;
+  }
+
+  /* music production*/
+  .sec4 .container {
+    height: 30%;
+    border-bottom: 10px white solid;
+  }
+  .sec4 li {
+    width: 100%;
+    margin-top:50px;
+  }
+  .sec4 iframe {
+    border: dotted 2px transparent;
+    border-top: dotted 2px grey;
+    padding-top: 9px;
+  }
+  #support{
+    font-size: 7vw;
+    margin-top: 25px;
+  }
+
+  /* contact*/
+  .sec5 {
+    background-image: url(img/contactphoto1.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #sec5left{
+    height:35%;
+  }
+  #sec5right{
+    height:65%;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+  }
+  #sec5left img {
+    visibility: hidden;
+  }
+  #favquote{
+    font-size: 10vw;
+    letter-spacing: 3pt;
+    margin: 0px 0px 15vh 13vw;
+    padding-top: 6vh;
+  }
+  #foot{
+    font-size: 2vh;
+    margin-top: 7vh;
+  }
+  }
