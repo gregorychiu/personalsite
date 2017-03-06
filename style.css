@@ -24,9 +24,9 @@ html {
 .nav-container li {
   display: inline-block;
   font-family: Arial;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 3px;
-  margin: 0px 12px;
+  margin: 0px 4px;
   color: white;
   opacity: .85;
 }
@@ -47,11 +47,11 @@ html {
 #name {
   font-family: 'Bowlby One SC', cursive;
   color:white;
-  font-size: 14.5vh;
+  font-size: 13vh;
   letter-spacing: 3pt;
-  margin-left: 7vw;
+  margin-left: 6vw;
   display: inline-block;
-  margin-top: 58vh;
+  margin-top: 42vh;
   opacity: .8;
 }
 
@@ -64,7 +64,7 @@ html {
 /* body content - bio*/
 .sec1 {
     height: 100%;
-    padding-top: 130px;
+    padding-top: 10vh;
     background: white;
     background-size: cover;
     background-image: url(img/default.png);
@@ -78,7 +78,7 @@ html {
 .texthover{
   font-family: 'Bowlby One SC', cursive;
   color:DimGrey;
-  font-size: 7.5vh;
+  font-size: 6vh;
   letter-spacing: 3pt;
   margin-left: 80px;
   display: block;
@@ -91,7 +91,7 @@ html {
 #title {
   font-family: 'Bungee Inline', cursive;
   color:white;
-  font-size: 12vw;
+  font-size: 8.5vw;
   opacity: .9;
   letter-spacing: 4pt;
   margin-left: 80px;
@@ -116,10 +116,10 @@ html {
   filter: grayscale(100%);
 }
 #scl {
-  width:90%;
-  height:83vh;
+  width:75%;
+  height:50vh;
   filter: grayscale(100%);
-  margin-top:35px;
+  margin-top:50px;
   opacity:.75;
 }
 #scl:hover{
@@ -129,9 +129,9 @@ html {
 .sec2 h2{
   font-family: 'Bungee Inline', cursive;
   color:DimGrey;
-  font-size: 7vw;
+  font-size: 5.2vw;
   letter-spacing: 3pt;
-  margin: 75px auto 5px 55px;
+  margin: 75px auto 20px 80px;
   opacity:.85;
   line-height: 130%;
   text-align: left;
@@ -151,23 +151,23 @@ html {
 .sec3 img {
   filter: grayscale(100%);
   width: 100%;
-  height: 28vh;
+  height: 20vh;
   margin: 0px 5px 15px 5px;
   opacity: .5;
 }
 .sec3 img:hover {
   filter: grayscale(0%);
   width: 100%;
-  height: 28vh;
+  height: 20vh;
   margin: 0px 5px 15px 5px;
   opacity: 1;
 }
 .sec3 h1{
   font-family: 'Bungee Inline', cursive;
   color:white;
-  font-size: 6vw;
+  font-size: 4.5vw;
   letter-spacing: 4pt;
-  margin: 300px 20px 0px 35px;
+  margin: 230px 20px 0px 35px;
   opacity:.65;
   line-height: 130%;
 }
@@ -196,7 +196,7 @@ html {
 .sec4 li {
   width: 24.7%;
   margin-top:55px;
-  padding: 5px 10px 12px 0px;
+  padding: 5px 10px 5px 0px;
   display: inline-block;
   box-sizing: border-box;
 }
@@ -217,9 +217,10 @@ html {
   font-family: 'Bungee Inline', cursive;
   color:white;
   opacity:.7;
-  font-size: 6vw;
+  font-size: 4.2vw;
   letter-spacing: 3pt;
   margin-top: 20px;
+  margin-left: 60vw;
 }
 
 
@@ -243,9 +244,9 @@ html {
 #favquote{
   font-family: 'Bungee Inline', cursive;
   color:DimGrey;
-  font-size: 8vw;
+  font-size: 5vw;
   letter-spacing: 3pt;
-  margin: 175px auto 170px 65px;
+  margin: 175px auto 18vh 65px;
   opacity:.85;
   line-height: 130%;
   text-align: left;
@@ -253,7 +254,7 @@ html {
 .link img{
   width: 17%;
   padding: 0px 5px;
-  height:19vh;
+  height:17vh;
   opacity: .8;
   filter: grayscale(100%);
   border-radius: 20px;
@@ -265,8 +266,8 @@ html {
   font-family: 'Bowlby One SC', cursive;
   color:grey;
   opacity: .8;
-  font-size: 2vh;
-  margin-top: 55px;
+  font-size: 1.8vh;
+  margin-top: 50px;
   letter-spacing: 1pt;
   line-height: 1.7
 }
@@ -289,18 +290,18 @@ MOBILE SITE CSS SETTINGS
     text-align: center;
   }
   .nav-container li {
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 2px;
-    margin: 0px 12px;
+    margin: 0px;
   }
 
   /* homepage Gregory Chiu*/
   #name {
     font-family: 'Bowlby One SC', cursive;
     color:white;
-    font-size: 10vh;
+    font-size: 7.8vh;
     letter-spacing: 2pt;
-    margin-top: 62vh;
+    margin-top: 45vh;
   }
 
   /* body content - bio*/
@@ -309,17 +310,17 @@ MOBILE SITE CSS SETTINGS
       padding-top: 20vh;
   }
   .sec1 .container{
-    width:40%;
+    width:60%;
   }
   .texthover{
     font-family: 'Bowlby One SC', cursive;
     color:DimGrey;
-    font-size: 6.5vh;
+    font-size: 5vh;
     letter-spacing: 2pt;
     margin-left: 10vh;
   }
   #title {
-    font-size: 8.5vw;
+    font-size: 12vw;
     letter-spacing: 3pt;
     margin-left: 10vh;
     line-height: 1;
@@ -347,13 +348,14 @@ MOBILE SITE CSS SETTINGS
   }
   #scl {
     width:68%;
-    height:50vh;
+    height:36vh;
   }
   .sec2 h2{
     text-align: center;
     letter-spacing: 3pt;
     margin: 0px;
-    padding-top: 6vh;
+    padding-top: 4vh;
+    font-size: 7vh;
   }
 
   /* photography*/
@@ -367,12 +369,12 @@ MOBILE SITE CSS SETTINGS
   }
   .sec3 img {
     width: 22%;
-    height: 24vh;
+    height: 18vh;
     margin: 0px 5px 15px 5px;
   }
   .sec3 img:hover {
     width: 22%;
-    height: 24vh;
+    height: 18vh;
     margin: 0px 5px 15px 5px;
   }
   .sec3 h1{
@@ -383,7 +385,7 @@ MOBILE SITE CSS SETTINGS
 
   /* music production*/
   .sec4 .container {
-    height: 30%;
+    height: 33%;
     border-bottom: 10px white solid;
   }
   .sec4 li {
@@ -397,7 +399,8 @@ MOBILE SITE CSS SETTINGS
   }
   #support{
     font-size: 7vw;
-    margin-top: 25px;
+    margin-top: 25px;  
+    margin-left: 0vw;
   }
 
   /* contact*/
@@ -421,13 +424,16 @@ MOBILE SITE CSS SETTINGS
     visibility: hidden;
   }
   #favquote{
-    font-size: 10vw;
+    font-size: 8vh;
     letter-spacing: 3pt;
-    margin: 0px 0px 15vh 13vw;
+    margin: 0px 0px 12vh 13vw;
     padding-top: 6vh;
+  }
+  .link img{
+    height: 13vh;
   }
   #foot{
     font-size: 2vh;
-    margin-top: 7vh;
+    margin-top: 5vh;
   }
   }
