@@ -294,6 +294,9 @@ MOBILE SITE CSS SETTINGS
     letter-spacing: 2px;
     margin: 0px;
   }
+  .content-header{
+    background-image: url(img/Backgroundp.jpeg);
+  }
 
   /* homepage Gregory Chiu*/
   #name {
