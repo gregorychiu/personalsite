@@ -355,7 +355,7 @@ MOBILE SITE CSS SETTINGS
     letter-spacing: 3pt;
     margin: 0px;
     padding-top: 4vh;
-    font-size: 7vh;
+    font-size: 6.5vh;
   }
 
   /* photography*/
@@ -368,19 +368,19 @@ MOBILE SITE CSS SETTINGS
     width:100%;
   }
   .sec3 img {
-    width: 22%;
-    height: 17.5vh;
-    margin: 0px 5px 15px 5px;
+    width: 21%;
+    height: 16.5vh;
+    margin: 0px 5px 10px 5px;
   }
   .sec3 img:hover {
-    width: 22%;
-    height: 17.5vh;
-    margin: 0px 5px 15px 5px;
+    width: 21%;
+    height: 16.5vh;
+    margin: 0px 5px 10px 5px;
   }
   .sec3 h1{
-    font-size: 6vw;
+    font-size: 5vw;
     letter-spacing: 4pt;
-    margin: 0px auto 40px auto;;
+    margin: 0px auto 30px auto;;
   }
 
   /* music production*/
@@ -427,7 +427,7 @@ MOBILE SITE CSS SETTINGS
     font-size: 8vh;
     letter-spacing: 3pt;
     margin: 0px 0px 12vh 13vw;
-    padding-top: 6vh;
+    padding-top: 5vh;
   }
   .link img{
     height: 13vh;
