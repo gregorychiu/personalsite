@@ -296,7 +296,7 @@ MOBILE SITE CSS SETTINGS
   }
   .content-header{
     background-image: url(img/Backgroundp.jpeg);
-    background-size: 100% 100%;
+    background-size: cover;
   }
 
   /* homepage Gregory Chiu*/
@@ -335,7 +335,7 @@ MOBILE SITE CSS SETTINGS
       background-image: url(img/workphoto1.png);
       background-position: center;
       background-repeat:no-repeat;
-      background-size: 100% 100%;
+      background-size: cover;
       background-attachment: fixed;
   }
   #sec2left{
@@ -412,7 +412,7 @@ MOBILE SITE CSS SETTINGS
     background-image: url(img/contactphoto1.png);
     background-position: center;
     background-repeat:no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
   }
   #sec5left{
