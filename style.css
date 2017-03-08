@@ -462,7 +462,7 @@ MOBILE SITE CSS SETTINGS
   }
   .content-header{
     background-image: url(img/Backgroundp.jpeg);
-    background-size: cover;
+    background-size: 100% 100%;
   }
 
   /* homepage Gregory Chiu*/
@@ -594,8 +594,8 @@ MOBILE SITE CSS SETTINGS
     visibility: hidden;
   }
   #favquote{
-    font-size: 7vw;
-    letter-spacing: 3pt;
+    font-size: 5vw;
+    letter-spacing: 2pt;
     margin: 0px 0px 10.5vh 15vw;
     padding-top: 5vh;
   }
