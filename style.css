@@ -402,7 +402,7 @@ TABLET SITE CSS SETTINGS
     padding-top: 9px;
   }
   #support{
-    font-size: 8.5vw;
+    font-size: 8vw;
     margin-top: 25px;  
     margin-left: 0vw;
   }
@@ -428,10 +428,11 @@ TABLET SITE CSS SETTINGS
     visibility: hidden;
   }
   #favquote{
-    font-size: 8.5vw;
+    font-size: 8vw;
     letter-spacing: 3pt;
     margin: 0px 0px 10vh 14.5vw;
     padding-top: 5vh;
+    line-height: 110%;
   }
   .link img{
     height: 12vh;
@@ -440,6 +441,7 @@ TABLET SITE CSS SETTINGS
   #foot{
     font-size: 1.8vh;
     margin-top: 4.5vh;
+    line-height: 1.4;
   }
   }
 
@@ -571,6 +573,7 @@ MOBILE SITE CSS SETTINGS
     font-size: 7.5vw;
     margin-top: 25px;  
     margin-left: 0vw;
+    line-height: 110%;
   }
 
   /* contact*/
@@ -605,5 +608,6 @@ MOBILE SITE CSS SETTINGS
   #foot{
     font-size: 2vh;
     margin-top: 5vh;
+    line-height: 1.4;
   }
   }
