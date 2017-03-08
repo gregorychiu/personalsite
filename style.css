@@ -359,7 +359,7 @@ TABLET SITE CSS SETTINGS
     letter-spacing: 3pt;
     margin: 0px;
     padding-top: 3.5vh;
-    font-size: 7vh;
+    font-size: 6.75vh;
   }
 
   /* photography*/
@@ -428,7 +428,7 @@ TABLET SITE CSS SETTINGS
     visibility: hidden;
   }
   #favquote{
-    font-size: 8vh;
+    font-size: 6.5vw;
     letter-spacing: 3pt;
     margin: 0px 0px 10vh 18vw;
     padding-top: 5vh;
@@ -594,7 +594,7 @@ MOBILE SITE CSS SETTINGS
     visibility: hidden;
   }
   #favquote{
-    font-size: 5vw;
+    font-size: 6vw;
     letter-spacing: 2pt;
     margin: 0px 0px 10.5vh 15vw;
     padding-top: 5vh;
